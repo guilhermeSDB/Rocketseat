@@ -26,6 +26,7 @@ html {
 }
 
 body {
+  display: flex;
   height: 100vh; /* View Hegiht */
   width: 100vw; /* View Width */
   background: var(--background);
@@ -90,7 +91,7 @@ button:hover,
 }
 
 button > img .button > img {
-  margin-right: 1rem;
+  margin-right: 2rem;
   width: 2rem;
 }
 
