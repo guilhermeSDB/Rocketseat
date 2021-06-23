@@ -16,7 +16,7 @@ html {
   --overlay: #040911;
   --icons-details: #a5b0c1;
 
-  --grey-drak: #4d5e77;
+  --grey-dark: #4d5e77;
   --grey-blue: #a1b2cd;
   --grey-medium: #d3d9e2;
   --grey-light: #e5eaf1;
@@ -102,6 +102,18 @@ button.outlined,
   color: var(--blue);
   border: 0.2rem solid var(--blue);
 }
+
+button.red, .button.red{
+  background: var(--red);
+  color: var(--white);
+}
+
+button.grey, .button.grey{
+  background: var(--grey-light);
+  color: var(--grey-dark);
+}
+
+/** Header **/
 
 .content header {
   width: 80%;
